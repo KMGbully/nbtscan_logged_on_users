@@ -10,4 +10,3 @@ for scan in $(cat $1); do
    echo $(tput setaf 3)User $user logged onto $scan $(tput setaf 7)
  fi
 done
-
